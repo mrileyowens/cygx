@@ -1,3 +1,9 @@
+# Authors: Loren Anderson, Riley Owens (GitHub: mrileyowens)
+
+# This file creates a false-color image of Cygnus X in 8 and
+# 24 micron bands overlaid by moment-zero RRL contours of the
+# area and overplots HII regions from a catalog.
+
 import matplotlib
 from matplotlib import pyplot as plt
 
