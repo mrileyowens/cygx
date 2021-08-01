@@ -1,3 +1,8 @@
+# Author: Riley Owens (GitHub: mrileyowens)
+
+# This file takes one map and reprojects and
+# interpolates it to a different map's WCS.
+
 from astropy.io import fits
 from astropy.wcs import WCS
 from reproject import reproject_interp
