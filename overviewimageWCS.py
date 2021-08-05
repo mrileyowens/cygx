@@ -81,10 +81,10 @@ ax = fig.add_subplot(111, projection=w_m0rrl)
 img = ax.imshow(rgb, origin="lower")
 
 #Setting axes coordinates, labels, and tick format
-lat = ax.coords['glat']
+lat=ax.coords['glat']
 lat.set_axislabel('Galactic Latitude')
 lat.set_major_formatter('d.d')
-lon = ax.coords['glon']
+lon=ax.coords['glon']
 lon.set_axislabel('Galactic Longitude')
 lon.set_major_formatter('d.d')
 
