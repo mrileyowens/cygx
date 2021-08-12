@@ -16,10 +16,13 @@ from matplotlib import pyplot as plt
 import numpy as np
 
 # Establishing directories
-fitsRRLm0='C:/Users/15136/OneDrive - University of Cincinnati/Documents/Research/WVU REU/Data/cygnus_m0_mosaic_-20_20.fits'
-fitsRRLm1='C:/Users/15136/OneDrive - University of Cincinnati/Documents/Research/WVU REU/Data/cygnus_m1_mosaic_-20_20.fits'
-fitsCOm0='C:/Users/15136/OneDrive - University of Cincinnati/Documents/Research/WVU REU/Data/13CO_cube_CygX_m0_-20_20.fits'
-fitsCOm1='C:/Users/15136/OneDrive - University of Cincinnati/Documents/Research/WVU REU/Data/13CO_cube_CygX_m1_-20_20.fits'
+home='C:/Users/15136/OneDrive - University of Cincinnati/Documents/Research/WVU REU'
+data=home+'/data'
+
+fitsRRLm0=data+'/cygnus_m0_mosaic_-20_20.fits'
+fitsRRLm1=data+'/cygnus_m1_mosaic_-20_20.fits'
+fitsCOm0=data+'/13CO_cube_CygX_m0_-20_20.fits'
+fitsCOm1=data+'/13CO_cube_CygX_m1_-20_20.fits'
 
 # Setting HDU lists
 hdul1=fits.open(fitsRRLm0)
